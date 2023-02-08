@@ -1,0 +1,223 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+p, h1 , h2 , h3,h4,h5,h6{
+  margin: 0;
+}
+.container{
+  width: 11px;
+}
+section{
+ margin-left: auto;
+ margin-right: auto;
+}
+.contacts {
+  color: var(--dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+}
+.contacts:hover {
+  color: var(--pressed-state);
+}
+.contacts:focus {
+  color: var(--pressed-state);
+}
+.header{
+  display: inline;
+}
+.head_nav {
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.head_nav:hover {
+  color: var(--pressed-state);
+}
+.head_nav:focus {
+  color: var(--pressed-state);
+}
+.main_button {
+  background: var(--light);
+  color: var(--pressed-state);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+.main_button:hover {
+  background: var(--pressed-state);
+  color: var(--light);
+}
+.main_button:focus {
+  background: var(--pressed-state);
+    color: var(--light);
+}
+.logo_header {
+  font-size: 18px;
+  line-height: 1.4;
+font-weight: 800;
+  font-family: Raleway;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo_header_span {
+  color: var(--dark);
+}
+.order_service {
+  color: white;
+  background-color: var(--primary-brand);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  
+  color: #ffffff;
+}
+.order_service:hover {
+  background-color: var(--pressed-state);
+}
+.order_service:focus {
+background-color: var(--pressed-state);
+}
+.first_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.first_section {
+  background: var(--hero-background);
+}
+.footer {
+  background: var(--modal-overlay);
+}
+.second_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.second_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.thirt_section{
+}
+.thirt_title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.four_section {
+  background: var(--light);
+}
+.four_title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.four_team_name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.four_profesion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.logo_footer {
+  font-weight: 800;
+    font-family: Raleway;
+  font-size: 18px;
+  line-height: 1.4;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo_footer_span {
+  color: var(--light);
+}
+
+.portfolio_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.portfolio_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.text_footer{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+}
+
+
