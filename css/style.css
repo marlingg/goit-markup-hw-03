@@ -16,6 +16,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text);
+  background-color: #fff;
 }
 ul {
   list-style-type: none;
@@ -48,7 +49,7 @@ section {
 }
 .container {
   max-width:1158px ;
-  padding: 0 ,15px;
+  padding: 0,15px;
   margin: 0 auto;
 }
 .main_adress_header{
@@ -110,8 +111,11 @@ margin-right: 40px;
 .li_contacts_header:focus {
   color: var(--pressed-state);
 }
-.ul_sort_button{
+.ul_sort_botton {
   display: flex;
+margin-left: 300px;
+background-color: #fff;
+margin-top: 108px;
 }
 .sort_button {
   background: var(--light);
@@ -122,6 +126,10 @@ margin-right: 40px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  margin-right: 24px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 .sort_button:hover {
   background: var(--pressed-state);
@@ -155,7 +163,7 @@ font-weight: 800;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
+  padding: 16px 32px;
   text-align: center;
   letter-spacing: 0.04em;
   
@@ -175,6 +183,9 @@ background-color: var(--pressed-state);
     left: 0px;
     top: 72px;
 }
+.ul_second_section{
+  display: inline;
+}
 .first_title {
   font-style: normal;
   font-weight: 700;
@@ -184,6 +195,15 @@ background-color: var(--pressed-state);
   letter-spacing: 0.02em;
   color: #fff;
 margin: 188px, 472px, 292px,472px;
+}
+.second_section{
+  
+}
+.ul_second_section{
+  margin-top: 120px;
+}
+.li_second_section{
+  margin-right: 24px;
 }
 .second_text {
   font-weight: 400;
@@ -201,7 +221,7 @@ margin: 188px, 472px, 292px,472px;
   color: var(--dark);
 }
 .thirt_section{
-  background: #E5E5E5;
+  background: #fff;
   
 }
 .thirt_title {
@@ -211,6 +231,15 @@ margin: 188px, 472px, 292px,472px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.ul_thirt_section_images{
+  display: flex;
+  margin-top: 72px;
+  background: #fff;
+}
+.li_thirt_section_images{
+  margin-right: 24px;
+  border: 1px #E7E9FC Inner alignment  ;
 }
 .four_section {
   background: var(--light);
@@ -277,7 +306,7 @@ margin: 188px, 472px, 292px,472px;
 }
 .footer {
   background: var(--modal-overlay);
-  width: 1440px;
+  
     height: 310px;
 }
 .text_footer{
@@ -292,8 +321,13 @@ margin: 188px, 472px, 292px,472px;
     border:1px solid #E7E9FC;
   }
   .portfolio_main{
-    background: #E5E5E5;
+    background: #fff;
   }
+.ul_sort_images{
 
+  display: flex;
+  margin-top:108px ;
+  align-items: center;
+}
   
   
