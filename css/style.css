@@ -38,7 +38,6 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
 section {
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +47,7 @@ section {
   border-bottom: 1px solid #E7E9FC  ;
 }
 .container {
+  width: 1158px;
   max-width:1158px ;
   padding: 0,15px;
   margin: 0 auto;
@@ -56,7 +56,6 @@ section {
   margin-top: 24px;
 
 }
-
 .ul_navigation_header{
   display: flex;
 }
@@ -78,15 +77,12 @@ section {
   margin-right: 40px;
     display: flex;
 }
-
- .li_navigation_header:hover {
+.li_navigation_header:hover {
    color: var(--pressed-state);
- }
-
- .li_navigation_header:focus {
+}
+.li_navigation_header:focus {
    color: var(--pressed-state);
- }
-
+}
 .ul_contacts_header{
 display: flex;
 align-items: center;
@@ -104,7 +100,6 @@ margin-right: 40px;
   font-style: normal;
  
 }
-
 .li_contacts_header:hover {
   color: var(--pressed-state);
 }
@@ -166,9 +161,8 @@ font-weight: 800;
   padding: 16px 32px;
   text-align: center;
   letter-spacing: 0.04em;
-  
   color: #ffffff;
- margin: 48px, 667px, 188px, 668px;
+margin-left: 500px;
 }
 .order_service:hover {
   background-color: var(--pressed-state);
@@ -194,13 +188,14 @@ background-color: var(--pressed-state);
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
-margin: 188px, 472px, 292px,472px;
+  padding-top: 188px; 
+  padding-bottom: 48px ;
 }
 .second_section{
-  
 }
 .ul_second_section{
   margin-top: 120px;
+text-align: center;
 }
 .li_second_section{
   margin-right: 24px;
@@ -249,6 +244,9 @@ margin: 188px, 472px, 292px,472px;
   background-color: #fff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    margin-right: 24px;
+margin-top: 72px;
+margin-bottom: 120px;
 }
 .four_title {
   font-weight: 700;
@@ -260,6 +258,9 @@ margin: 188px, 472px, 292px,472px;
   color: var(--dark);
   margin-left: auto;
   margin-left: auto;
+}
+.four_section_workers{
+  display: flex;
 }
 .four_team_name {
   font-weight: 500;
@@ -286,6 +287,7 @@ margin: 188px, 472px, 292px,472px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+    padding-top: 100px;
 }
 .logo_footer_span {
   color: var(--light);
@@ -315,19 +317,24 @@ margin: 188px, 472px, 292px,472px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent);
-  }
-  .portfolio_border{
+}
+.portfolio_border{
     background-color: #fff;
     border:1px solid #E7E9FC;
-  }
-  .portfolio_main{
+    margin-right: 24px;
+      margin-top: 48px;
+}
+.portfolio_main{
     background: #fff;
-  }
+}
 .ul_sort_images{
 
   display: flex;
+  flex-wrap: wrap;
   margin-top:108px ;
   align-items: center;
+  margin-bottom: 120px;
 }
+
   
   
