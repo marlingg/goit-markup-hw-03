@@ -27,6 +27,7 @@ a {
   text-decoration: none;
 }
 p,
+ul,
 h1,
 h2,
 h3,
@@ -34,6 +35,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  padding: 0;
 }
 
 section {
@@ -41,53 +43,77 @@ section {
   margin-right: auto;
 }
 .header{
-  display: flex;
+  height: 72px;
+  border-bottom: 1px solid #E7E9FC  ;
 }
-.container{
-  width: 1158px;
+.container {
+  max-width:1158px ;
+  padding: 0 ,15px;
+  margin: 0 auto;
 }
+.main_adress_header{
+  margin-top: 24px;
+
+}
+
 .ul_navigation_header{
   display: flex;
 }
-.navigation_header {
+.ul_navigation_header:last-child{
+  margin-right: 292px;
+}
+.main_navigation_header{
+  display:flex;
+   align-items: center;
+  margin-top: 24px;
+ 
+}
+.li_navigation_header {
   color: var(--dark);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 40px;
+  margin-right: 40px;
     display: flex;
 }
-.navigation_header:first-child{
-  margin-left: 76px;
-}
+
+ .li_navigation_header:hover {
+   color: var(--pressed-state);
+ }
+
+ .li_navigation_header:focus {
+   color: var(--pressed-state);
+ }
+
 .ul_contacts_header{
 display: flex;
+align-items: center;
+
 }
-  .contacts_header {
+.li_contacts_header:first-child{
+  
+margin-right: 40px;
+}
+  .li_contacts_header {
   color: var(--dark);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
-  margin-left: 40px;
+ 
 }
-.contacts_header:first-child{
-  margin-left: 332px;
-}
-.contacts_header:hover {
+
+.li_contacts_header:hover {
   color: var(--pressed-state);
 }
-.contacts_header:focus {
+.li_contacts_header:focus {
   color: var(--pressed-state);
 }
-.navigation_header:hover {
-  color: var(--pressed-state);
+.ul_sort_button{
+  display: flex;
 }
-.navigation_header:focus {
-  color: var(--pressed-state);
-}
-.main_button {
+.sort_button {
   background: var(--light);
   color: var(--pressed-state);
   border: none;
@@ -97,11 +123,11 @@ display: flex;
   align-items: center;
   letter-spacing: 0.04em;
 }
-.main_button:hover {
+.sort_button:hover {
   background: var(--pressed-state);
   color: var(--light);
 }
-.main_button:focus {
+.sort_button:focus {
   background: var(--pressed-state);
     color: var(--light);
 }
@@ -114,10 +140,11 @@ font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
-  margin-left: 156px;
+ 
 }
 .logo_header_span {
   color: var(--dark);
+  margin-right: 76px;
 }
 .order_service {
   color: white;
@@ -141,6 +168,13 @@ font-weight: 800;
 .order_service:focus {
 background-color: var(--pressed-state);
 }
+.first_section {
+  background: var(--hero-background);
+  width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+}
 .first_title {
   font-style: normal;
   font-weight: 700;
@@ -149,9 +183,7 @@ background-color: var(--pressed-state);
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
-}
-.first_section {
-  background: var(--hero-background);
+margin: 188px, 472px, 292px,472px;
 }
 .second_text {
   font-weight: 400;
@@ -159,7 +191,7 @@ background-color: var(--pressed-state);
   line-height: 1.5px;
   letter-spacing: 0.02em;
   color: var(--text);
-    display: flex;
+
 }
 .second_title {
   font-weight: 500;
@@ -167,7 +199,6 @@ background-color: var(--pressed-state);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
-    display: flex;
 }
 .thirt_section{
   background: #E5E5E5;
@@ -187,6 +218,8 @@ background-color: var(--pressed-state);
 }
 .img_border_four_section{
   background-color: #fff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .four_title {
   font-weight: 700;
@@ -244,6 +277,8 @@ background-color: var(--pressed-state);
 }
 .footer {
   background: var(--modal-overlay);
+  width: 1440px;
+    height: 310px;
 }
 .text_footer{
   font-weight: 400;
@@ -252,6 +287,13 @@ background-color: var(--pressed-state);
     letter-spacing: 0.02em;
     color: var(--accent);
   }
-  
+  .portfolio_border{
+    background-color: #fff;
+    border:1px solid #E7E9FC;
+  }
+  .portfolio_main{
+    background: #E5E5E5;
+  }
+
   
   
