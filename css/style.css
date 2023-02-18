@@ -38,18 +38,22 @@ h6 {
   margin: 0;
   padding: 0;
 }
+.container {
+  
+      width: 1158px;
+      padding: 0 15px;
+      margin: 0 auto;
+}
 img{
   display: block;
 }
-section {
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* header */
 .header {
-  height: 72px;
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+    padding-bottom: 24px;
 }
 .logo_header {
   font-size: 18px;
@@ -66,7 +70,7 @@ section {
   margin-right: 76px;
 }
 .main_adress_header {
-  margin-top: 24px;
+ 
 }
 .ul_navigation_header {
   display: flex;
@@ -77,7 +81,7 @@ section {
 .main_navigation_header {
   display: flex;
   align-items: center;
-  margin-top: 24px;
+ 
 }
 .li_navigation_header {
   color: var(--dark);
@@ -131,7 +135,7 @@ section {
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  margin-left: 500px;
+  margin: 0 auto;
 }
 .order_service:hover {
   background-color: var(--pressed-state);
@@ -141,10 +145,9 @@ section {
 }
 .first_section {
   background: var(--hero-background);
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
+padding-top: 188px;
+padding-bottom: 188px;
+
 }
 .ul_second_section {
   display: inline;
@@ -157,8 +160,7 @@ section {
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .second_section {
   padding-top:120px;
@@ -204,8 +206,8 @@ display: flex;
   background: #fff;
 }
 .li_thirt_section_images {
-  margin-right: 24px;
   border: 1px #e7e9fc Inner alignment;
+  margin-right: 24px;
 }
 .four_section {
   background: var(--light);
@@ -219,7 +221,6 @@ display: flex;
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   margin-right: 24px;
-  margin-top: 72px;
 
 }
 .four_title {
@@ -232,6 +233,7 @@ display: flex;
   color: var(--dark);
   margin-left: auto;
   margin-left: auto;
+  margin-bottom: 72px;
 }
 .four_section_workers {
   display: flex;
@@ -260,27 +262,14 @@ display: flex;
 
 
 /* portfolio */
-.logo_footer {
-  font-weight: 800;
-  font-family: Raleway;
-  font-size: 18px;
-  line-height: 1.4;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-brand);
-margin-bottom: 16px;
-}
-.logo_footer_span {
-  color: var(--light);
-}
+
 .portfolio_title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
-  margin-top: 32px;
+ 
   margin-bottom: 8px;
   margin-left: 16px;
 }
@@ -292,17 +281,34 @@ margin-bottom: 16px;
   color: var(--text);
 
   
-    margin-bottom: 32px;
+    
     margin-left: 16px;
 }
 .footer {
   background: var(--modal-overlay);
-width:1440px;
+
 padding-top: 100px;
 padding-bottom: 100px;
-margin: 0 auto;
+
+}
+.logo_footer {
+  font-weight: 800;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 1.4;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+ 
+}
+
+.logo_footer_span {
+  color: var(--light);
+ 
 }
 .text_footer {
+  margin-top: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -318,9 +324,9 @@ margin: 0 auto;
 .portfolio_border {
   background-color: #fff;
   border: 1px solid #e7e9fc;
-  margin-right: 24px;
-  margin-bottom: 48px;
-  
+  border-top: none;
+padding-bottom: 32px;
+padding-top:32px ;
 }
 .portfolio_main {
   background: #fff;
@@ -334,7 +340,12 @@ margin: 0 auto;
   align-items: center;
   
 }
-.ul_sort_botton {
+
+.li_sort_images{
+  margin-right: 24px;
+    margin-bottom: 48px;
+}
+.ul_sort_button {
   
   display: flex;
   flex-direction: row;
@@ -344,7 +355,9 @@ margin: 0 auto;
   margin-bottom: 72px;
   
 }
-
+.li_sort_button{
+  margin-right: 24px;
+}
 .sort_button {
   background: var(--light);
   color: var(--pressed-state);
@@ -355,7 +368,7 @@ margin: 0 auto;
   align-items: center;
   letter-spacing: 0.04em;
   padding: 12px 24px;
-  margin-right: 24px;
+  
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -374,9 +387,3 @@ margin: 0 auto;
 
 
 /* portfolio */
-.container {
-  width: 1158px;
-  max-width: 1158px;
-  padding: 0, 15px;
-  margin: 0 auto;
-}
