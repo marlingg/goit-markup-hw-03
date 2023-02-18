@@ -102,8 +102,13 @@ img{
   display: flex;
   align-items: center;
 }
-.li_contacts_header:first-child {
+.li_contacts_header{
   margin-right: 40px;
+  
+}
+.li_contacts_header:last-child{
+  margin-right: 0;
+
 }
 .li_contacts_header {
   color: var(--dark);
@@ -340,7 +345,9 @@ padding-top:32px ;
   align-items: center;
   
 }
-
+.li_sort_images:nth-child(3n) {
+  margin-right: 0;
+}
 .li_sort_images{
   margin-right: 24px;
     margin-bottom: 48px;
