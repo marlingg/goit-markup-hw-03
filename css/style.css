@@ -186,6 +186,9 @@ display: flex;
 .li_second_section {
   margin-right: 24px;
 }
+.li_second_section:last-child{
+  margin-right: 0;
+}
 .second_text {
   font-weight: 400;
   font-size: 16px;
